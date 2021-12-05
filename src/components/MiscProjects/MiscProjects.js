@@ -7,10 +7,10 @@ const MiscProjects = () => {
   if (!miscprojects.length) return null
 
   return (
-    <section id='projects' className='section projects'>
+    <section id='miscprojects' className='section miscprojects'>
       <h2 className='section__title'>Misc Projects</h2>
 
-      <div className='projects__grid'>
+      <div className='miscprojects__grid'>
         {miscprojects.map((miscproject) => (
           <MiscProjectContainer key={uniqid()} miscproject={miscproject} />
         ))}

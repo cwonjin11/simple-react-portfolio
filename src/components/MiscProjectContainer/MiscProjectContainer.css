@@ -1,33 +1,34 @@
-.project {
+.miscproject {
   padding: 2em;
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  border-radius: 5px 15px 5px 15px;
 }
 
-.project:hover {
+.miscproject:hover {
   transform: translateY(-7px);
 }
 
-.project__description {
+.miscproject__description {
   margin-top: 1em;
 }
 
-.project__stack {
+.miscproject__stack {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 1.2em 0;
 }
 
-.project__stack-item {
+.miscproject__stack-item {
   margin: 0.5em;
   font-weight: 500;
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
 }
 
-.project .link--icon {
+.miscproject .link--icon {
   margin-left: 0.5em;
 }

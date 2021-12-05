@@ -4,7 +4,7 @@ import LaunchIcon from '@material-ui/icons/Launch'
 import './MiscProjectContainer.css'
 
 const MiscProjectContainer = ({ miscproject }) => (
-  <div className='project'>
+  <div className='miscproject'>
     <h3>{miscproject.name}</h3>
 
     <p className='miscproject__description'>{miscproject.description}</p>
