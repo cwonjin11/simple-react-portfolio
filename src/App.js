@@ -1,4 +1,5 @@
 import { useContext } from 'react'
+// import Particles from "react-tsparticles"
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
@@ -12,6 +13,7 @@ import './App.css'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
+  
 
   return (
     <div id='top' className={`${themeName} app`}>
@@ -24,7 +26,6 @@ const App = () => {
         <Skills />
         <Contact />
       </main>
-
       <ScrollToTop />
       <Footer />
     </div>

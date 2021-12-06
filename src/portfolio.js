@@ -2,6 +2,18 @@ const header = {
   homepage: 'https://cwonjin1.netlify.app/',
   title: 'Wonjin C.',
 }
+// const animation = {
+//   // make it false to switch off fade-up animation
+//   animate: true,
+//   // animation playing duration
+//   duration: 750,
+//   // if true, animation plays only once when element comes on screen
+//   once: false,
+// };
+
+// const background = {
+//   type: "Snow",
+// }
 
 const about = {
   name: 'Wonjin Cho',
