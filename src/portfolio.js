@@ -33,6 +33,14 @@ const about = {
 
 const projects = [
   {
+    name: 'JS All-In-One',
+    description:
+      'Javascript based application that includes basic projects such as weather app, to-do list and so on to sharpen my JS, HTML, CSS skill set',
+    stack: ['Javascript, HTML, CSS'],
+    sourceCode: 'https://github.com/cwonjin11/JS-All-In-One',
+    livePreview: 'https://javascript-all-in-one.netlify.app/',
+  },
+  {
     name: 'Lego Displayer',
     description:
       'An Single Page Application for lego builders to display, describe and share with others finished Lego projects.',
