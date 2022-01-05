@@ -24,7 +24,8 @@ const about = {
         `Former Project manager & Finance analyst 🏦`,
         `Love to learn new things ✏️`,
         `Responsibility is my everything 🚨`],
-  resume: 'https://drive.google.com/file/d/1Df4NYOjnBnFf7UqHJW4KRxcHY7XZswCk/view',
+  resume: 'https://drive.google.com/file/d/1AQQeWkYAqDaVkk25KIO1jqkT0lkFu_Ka/view?usp=sharing',
+  
   social: {
     linkedin: 'https://www.linkedin.com/in/wonjin-cho-987b4219b/',
     github: 'https://github.com/cwonjin11',
